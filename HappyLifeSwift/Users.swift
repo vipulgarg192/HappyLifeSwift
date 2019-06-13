@@ -12,6 +12,10 @@ enum Gender {
     case Male , Female , Other
 }
 
+enum UserType {
+    case Admin , Celebrity , Fan
+}
+
 class Users {
     
     var id : String
@@ -20,6 +24,8 @@ class Users {
     var gender : Gender
     var email : String
     var password : String
+    var userTpe : UserType
+    
     
     
     init() {
@@ -29,6 +35,7 @@ class Users {
         self.gender = Gender.Other
         self.email = String()
         self.password = String()
+        self.userTpe = UserType
         
     }
     
