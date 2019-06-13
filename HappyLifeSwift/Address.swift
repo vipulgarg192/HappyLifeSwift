@@ -1,11 +1,15 @@
 //
-//  main.swift
+//  Address.swift
 //  HappyLifeSwift
 //
-//  Created by MacStudent on 2019-06-11.
+//  Created by MacStudent on 2019-06-12.
 //  Copyright © 2019 MacStudent. All rights reserved.
 //
 
 import Foundation
 
-
+class Address
+{
+    
+    
+}

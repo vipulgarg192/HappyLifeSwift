@@ -20,6 +20,7 @@ class Users {
     var gender : Gender
     var email : String
     var password : String
+    var address : Address
     
     
     init() {
