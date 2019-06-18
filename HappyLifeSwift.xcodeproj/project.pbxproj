@@ -15,6 +15,7 @@
 		9BF4626C22B8520000A886AF /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4626B22B8520000A886AF /* Address.swift */; };
 		9BF4626E22B854D100A886AF /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4626D22B854D100A886AF /* Enums.swift */; };
 		9BF4627022B8672400A886AF /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4626F22B8672400A886AF /* Products.swift */; };
+		9BF4627322B86AAF00A886AF /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4627222B86AAF00A886AF /* IDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		9BF4626B22B8520000A886AF /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		9BF4626D22B854D100A886AF /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		9BF4626F22B8672400A886AF /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		9BF4627222B86AAF00A886AF /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		9BA0C02F22B060CE00E7FFE2 /* HappyLifeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9BF4627122B86A9800A886AF /* protocols */,
 				9BF4626022B8485F00A886AF /* utility */,
 				9BF4625F22B8468A00A886AF /* users */,
 				9BA0C03022B060CE00E7FFE2 /* main.swift */,
@@ -97,6 +100,14 @@
 				9BF4626F22B8672400A886AF /* Products.swift */,
 			);
 			path = utility;
+			sourceTree = "<group>";
+		};
+		9BF4627122B86A9800A886AF /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9BF4627222B86AAF00A886AF /* IDisplay.swift */,
+			);
+			path = protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				9BA0C03122B060CE00E7FFE2 /* main.swift in Sources */,
 				9BF4626222B8487200A886AF /* Utitlity.swift in Sources */,
 				9BF4626422B848B600A886AF /* Seller.swift in Sources */,
+				9BF4627322B86AAF00A886AF /* IDisplay.swift in Sources */,
 				9BF4626E22B854D100A886AF /* Enums.swift in Sources */,
 				9BF4627022B8672400A886AF /* Products.swift in Sources */,
 				9BF4626622B848C100A886AF /* Buyer.swift in Sources */,

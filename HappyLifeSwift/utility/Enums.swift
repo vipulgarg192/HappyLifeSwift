@@ -22,3 +22,8 @@ enum UserType {
 enum ProductType {
     case FootWare , Clothes , Miscelleneous , Automobiles , Others
 }
+
+enum Gender {
+    case Male , Female , Other
+}
+

@@ -1,5 +1,5 @@
 //
-//  Buyer.swift
+//  Display.swift
 //  HappyLifeSwift
 //
 //  Created by MacStudent on 2019-06-17.
@@ -8,13 +8,8 @@
 
 import Foundation
 
-class Buyer: Users {
+protocol IDisplay {
     
-    var accountDetails : String
     
-    override init() {
-        self.accountDetails = String()
-    }
+    
 }
-
-

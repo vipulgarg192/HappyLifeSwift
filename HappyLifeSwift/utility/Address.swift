@@ -9,7 +9,7 @@
 import Foundation
 
 
-class Address {
+struct Address {
     
     var houseNo : String
     var streetName  : String
@@ -18,14 +18,22 @@ class Address {
     var postalCode : String
     
     
-    init(houseNo : String , streetName : String , city : String , country : String , postalCode : String) throws {
-        self.houseNo = houseNo
-        self.streetName = streetName
-        self.city = city
-        self.country = country
-        if postalCode.count < 6 {
-            throw UserError.InvalidPostalCode(msg : "Invalid PostalCode")
-        }
-        self.postalCode = postalCode
-    }
+//    init(houseNo : String , streetName : String , city : String , country : String , postalCode : String) throws {
+//        self.houseNo = houseNo
+//        self.streetName = streetName
+//        self.city = city
+//        self.country = country
+//        if postalCode.count < 6 {
+//            throw UserError.InvalidPostalCode(msg : "Invalid PostalCode")
+//        }
+//        self.postalCode = postalCode
+//    }
+//
+//    init()  {
+//        self.houseNo = String()
+//        self.streetName = String()
+//        self.city = String()
+//        self.country = String()
+//        self.postalCode = String()
+//    }
 }

@@ -8,10 +8,6 @@
 
 import Foundation
 
-enum Gender {
-    case Male , Female , Other
-}
-
 class Users {
     
     var id : String
@@ -20,7 +16,7 @@ class Users {
     var gender : Gender
     var email : String
     var password : String
-    
+
     
     init() {
         self.id = String()
@@ -29,7 +25,6 @@ class Users {
         self.gender = Gender.Other
         self.email = String()
         self.password = String()
-        
     }
     
 }

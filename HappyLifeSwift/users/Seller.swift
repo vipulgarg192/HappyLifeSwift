@@ -13,9 +13,11 @@ class Seller: Users {
     var address : Address
     var products = Products()
 
-    
     override init() {
-        self.address = Address
+        self.address = Address()
         self.products = Products()
     }
+    
+   
+    
 }
