@@ -11,9 +11,11 @@ import Foundation
 class Buyer: Users {
     
     var accountDetails : String
+    var products : Products
     
     override init() {
         self.accountDetails = String()
+        self.products = Products()
     }
 }
 

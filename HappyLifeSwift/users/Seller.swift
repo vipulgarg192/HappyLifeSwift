@@ -18,6 +18,4 @@ class Seller: Users {
         self.products = Products()
     }
     
-   
-    
 }

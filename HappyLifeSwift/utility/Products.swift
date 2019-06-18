@@ -12,11 +12,14 @@ class Products {
     
     var  productsId  : String
     var  productsName : String
-    var productsType : ProductType
+    var  productsType : ProductType
+    var  isSold : Bool
+    
     
     init() {
         self.productsId = String()
         self.productsName = String()
-        self.productsType = ProductType()
+        self.productsType = ProductType.Others
+        self.isSold = Bool()
     }
 }
