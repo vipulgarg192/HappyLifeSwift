@@ -16,7 +16,7 @@ enum UserError : Error {
 }
 
 enum UserType {
-    case Seller , Buyer , Admin
+    case Seller , Buyer , Admin 
 }
 
 enum ProductType {

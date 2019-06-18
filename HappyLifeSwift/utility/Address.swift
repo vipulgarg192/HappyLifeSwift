@@ -9,7 +9,7 @@
 import Foundation
 
 
-struct Address {
+class Address {
     
     var houseNo : String
     var streetName  : String
@@ -28,7 +28,7 @@ struct Address {
         }
         self.postalCode = postalCode
     }
-//
+    
     init()  {
         self.houseNo = String()
         self.streetName = String()

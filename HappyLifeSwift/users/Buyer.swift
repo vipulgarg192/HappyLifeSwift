@@ -10,12 +10,10 @@ import Foundation
 
 class Buyer: Users {
     
-    var accountDetails : String
-    var products : Products
+    var accountEmail : String
     
     override init() {
-        self.accountDetails = String()
-        self.products = Products()
+        self.accountEmail = String()
     }
 }
 

@@ -14,7 +14,7 @@ class Products {
     var  productsName : String
     var  productsType : ProductType
     var  isSold : Bool
-    
+
     
     init() {
         self.productsId = String()

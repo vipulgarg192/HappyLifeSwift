@@ -8,14 +8,27 @@
 
 import Foundation
 
-class Seller: Users {
+ class Bank {
     
-    var address : Address
-    var products = Products()
+    var organisationID : String
+    var bankName : String
+    var accountNo : String
+    
+    init() {
+        self.organisationID = String()
+        self.bankName = String()
+        self.accountNo = String()
+    }
+}
 
+class Seller: Users {
+    var address : Address
+    var bankDetails : Bank
+    
     override init() {
         self.address = Address()
-        self.products = Products()
+        self.bankDetails = Bank()
     }
-    
 }
+
+

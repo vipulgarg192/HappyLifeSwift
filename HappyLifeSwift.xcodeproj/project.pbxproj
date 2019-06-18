@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9BA0C03122B060CE00E7FFE2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0C03022B060CE00E7FFE2 /* main.swift */; };
 		9BE37B8322B1D51000EF6ECE /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE37B8222B1D51000EF6ECE /* Users.swift */; };
+<<<<<<< HEAD
 		9BF4626222B8487200A886AF /* Utitlity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4626122B8487200A886AF /* Utitlity.swift */; };
 		9BF4626422B848B600A886AF /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4626322B848B600A886AF /* Seller.swift */; };
 		9BF4626622B848C100A886AF /* Buyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4626522B848C100A886AF /* Buyer.swift */; };
@@ -16,6 +17,9 @@
 		9BF4626E22B854D100A886AF /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4626D22B854D100A886AF /* Enums.swift */; };
 		9BF4627022B8672400A886AF /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4626F22B8672400A886AF /* Products.swift */; };
 		9BF4627322B86AAF00A886AF /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF4627222B86AAF00A886AF /* IDisplay.swift */; };
+=======
+		9BE37B8522B1DAFE00EF6ECE /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE37B8422B1DAFE00EF6ECE /* Seller.swift */; };
+>>>>>>> Vipul
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +38,7 @@
 		9BA0C02D22B060CE00E7FFE2 /* HappyLifeSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HappyLifeSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA0C03022B060CE00E7FFE2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BE37B8222B1D51000EF6ECE /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		9BF4626122B8487200A886AF /* Utitlity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utitlity.swift; sourceTree = "<group>"; };
 		9BF4626322B848B600A886AF /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
 		9BF4626522B848C100A886AF /* Buyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buyer.swift; sourceTree = "<group>"; };
@@ -41,6 +46,9 @@
 		9BF4626D22B854D100A886AF /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		9BF4626F22B8672400A886AF /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		9BF4627222B86AAF00A886AF /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+=======
+		9BE37B8422B1DAFE00EF6ECE /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
+>>>>>>> Vipul
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,11 @@
 				9BF4626022B8485F00A886AF /* utility */,
 				9BF4625F22B8468A00A886AF /* users */,
 				9BA0C03022B060CE00E7FFE2 /* main.swift */,
+<<<<<<< HEAD
+=======
+				9BE37B8222B1D51000EF6ECE /* Users.swift */,
+				9BE37B8422B1DAFE00EF6ECE /* Seller.swift */,
+>>>>>>> Vipul
 			);
 			path = HappyLifeSwift;
 			sourceTree = "<group>";
@@ -167,7 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				9BF4626C22B8520000A886AF /* Address.swift in Sources */,
+=======
+				9BE37B8522B1DAFE00EF6ECE /* Seller.swift in Sources */,
+>>>>>>> Vipul
 				9BA0C03122B060CE00E7FFE2 /* main.swift in Sources */,
 				9BF4626222B8487200A886AF /* Utitlity.swift in Sources */,
 				9BF4626422B848B600A886AF /* Seller.swift in Sources */,
